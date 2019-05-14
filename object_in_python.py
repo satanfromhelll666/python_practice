@@ -1,13 +1,14 @@
-print('hello')
-print('git')
-print('hello hello')
-print('i am from vscode')
-print('hey i am new')
-print('try try')
-for i in range(0,10):
-    print(i)
+class computer:
+    
+    def __init__(self,pro,ram):
 
-print('lol')
+        self.x=pro #here self.x is object variable and pro and ram is variable which is pass through the object call;
+        self.y=ram
+        
+    def function(self):
+        print('this computer has',self.x,'processor and',self.y, ' ram' )
 
-print('i understand')
-print('go to github')
+com1= computer('i5',16)
+com1.function()
+com2=computer('i3',8)
+com2.function()
