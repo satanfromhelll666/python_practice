@@ -6,3 +6,5 @@ print('hey i am new')
 print('try try')
 for i in range(0,10):
     print(i)
+
+print('lol')
