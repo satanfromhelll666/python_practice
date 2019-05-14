@@ -10,3 +10,4 @@ for i in range(0,10):
 print('lol')
 
 print('i understand')
+print('go to github')
