@@ -35,5 +35,5 @@ test2.a1() #here i can access a1 function from class c and here i inharite class
 test2.c1()
 test2.b1()
 
-test2() #here i can call constructor which in class c
+test2() #here i can call constructor which in class c --use super methos and here we can print a constructor or b constructor.
 
