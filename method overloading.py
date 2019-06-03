@@ -22,7 +22,7 @@ class d(c):
 
 mob2 = d
 
-mob2.mobile()
+mob2.mobile() #here it print class d fucntion
 
 
 
