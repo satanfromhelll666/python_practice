@@ -18,6 +18,7 @@ class c:
 
 class d(c):
     def mobile():
+        #dsfdms
         print('this is class d mobile')
 
 mob2 = d
