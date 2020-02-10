@@ -15,10 +15,10 @@ class b:
     def b1():
         print('this is b1')
 
-class c(b,a):
+class c(b,a): #inharit a and b in the c class
 
     def __init__(self):
-        super().__init__()
+        super().__init__() #here a and b is the mother class so here we use super and if we use self thats means it will class c
         print('this is init from class-c')
         
 
