@@ -1,4 +1,5 @@
 class computer:
+    raise_amount=1.4 # static variable..
     
     def __init__(self,pro,ram):
 
