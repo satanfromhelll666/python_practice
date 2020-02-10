@@ -1,7 +1,7 @@
 class computer:
     raise_amount=1.4 # static variable..
     
-    def __init__(self,pro,ram):
+    def __init__(self,pro,ram):  #self is object wise variable
 
         self.x=pro #here self.x is object variable and pro and ram is variable which is pass through the object call;
         self.y=ram
